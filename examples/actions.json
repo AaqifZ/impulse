@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "actions": [
+    {"id": "youtube", "name": "YouTube Search", "aliases": ["y", "youtube"], "kind": "url", "target": "https://www.youtube.com/results?search_query={query}", "emptyQueryTarget": "https://www.youtube.com/"},
+    {"id": "google", "name": "Google Search", "aliases": ["g", "google"], "kind": "url", "target": "https://www.google.com/search?q={query}"},
+    {"id": "maps", "name": "Google Maps", "aliases": ["maps", "gmaps"], "kind": "url", "target": "https://www.google.com/maps/search/?api=1&query={query}"},
+    {"id": "calendar", "name": "Google Calendar", "aliases": ["gcal"], "kind": "url", "target": "https://calendar.google.com/"},
+    {"id": "date", "name": "Today's Date", "aliases": [";today"], "kind": "snippet", "target": "{date format=\"yyyy-MM-dd\"}"}
+  ]
+}

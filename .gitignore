@@ -1,0 +1,9 @@
+# Your configuration, its previous version, and runtime state stay local.
+/config/
+/.build/
+/dist/
+/.swiftpm/
+.DS_Store
+__pycache__/
+*.pyc
+*.log
